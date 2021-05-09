@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-05-09T15:28:49.006Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2021/05/09/test2/"/>
+    <id>http://example.com/2021/05/09/test2/</id>
+    <published>2021-05-09T15:28:49.016Z</published>
+    <updated>2021-05-09T15:28:49.006Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="this-is-a-test"><a href="#this-is-a-test" class="headerlink" title="this is a test"></a>this is a test</h2><h3 id="test"><a href="#test" class="headerlink" title="test"></a>test</h3><p>:</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;this-is-a-test&quot;&gt;&lt;a href=&quot;#this-is-a-test&quot; class=&quot;headerlink&quot; title=&quot;this is a test&quot;&gt;&lt;/a&gt;this is a test&lt;/h2&gt;&lt;h3 id=&quot;test&quot;&gt;&lt;a href=&quot;#t</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2021/05/09/%E9%A6%96%E7%AF%87/"/>
+    <id>http://example.com/2021/05/09/%E9%A6%96%E7%AF%87/</id>
+    <published>2021-05-09T14:37:00.862Z</published>
+    <updated>2021-05-08T15:14:16.711Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="首篇"><a href="#首篇" class="headerlink" title="首篇"></a>首篇</h1><p>分类：杂想</p><p>第一次建立了自己的博客，用来记录自己的点滴。</p><blockquote><p>生活是由回忆构成的，所以需要记录，形式不限，文字、图片，或是影像。<br>                                <em>——by harry7756</em></p></blockquote><p>生命好短暂，也有很多美好的东西，享受美好，才是不枉此生。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;首篇&quot;&gt;&lt;a href=&quot;#首篇&quot; class=&quot;headerlink&quot; title=&quot;首篇&quot;&gt;&lt;/a&gt;首篇&lt;/h1&gt;&lt;p&gt;分类：杂想&lt;/p&gt;
+&lt;p&gt;第一次建立了自己的博客，用来记录自己的点滴。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;生活是由回忆构成的，所以需要</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2021/05/09/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%88%9D%E6%8E%A2/"/>
+    <id>http://example.com/2021/05/09/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%88%9D%E6%8E%A2/</id>
+    <published>2021-05-09T14:37:00.860Z</published>
+    <updated>2021-05-08T15:37:09.908Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="个人博客搭建初探"><a href="#个人博客搭建初探" class="headerlink" title="个人博客搭建初探"></a>个人博客搭建初探</h1><p>今天跟随视频和网页教程搭建了属于自己的个人博客，视频和网络参考如下：</p><ul><li><p><a href="https://www.youtube.com/watch?v=erKYtw4Rfhk">手把手教你从0开始搭建自己的个人博客 |无坑版视频教程| hexo</a></p></li><li><p> <a href="https://zhuanlan.zhihu.com/p/35668237">超详细Hexo+Github博客搭建小白教程 - 知乎</a></p></li></ul><p>当然，跟随这些教程的好处是入门快，想提高可得费点劲。安装期间，无意中下载了最新版的<em>node.js</em>,版本号<em>14.16.1</em>，结果经常报错，*<a href="https://www.haoyizebo.com/posts/710984d0/">这篇文章</a>*给了很大帮助。历时两个小时，终于可以把博客搭建起来了，之后的任务有两个~</p><h6 id="一是做好技术的记录和总结"><a href="#一是做好技术的记录和总结" class="headerlink" title="一是做好技术的记录和总结"></a>一是做好技术的记录和总结</h6><h6 id="二是做好博客的美化和功能多元化，向个人网站全面发展。"><a href="#二是做好博客的美化和功能多元化，向个人网站全面发展。" class="headerlink" title="二是做好博客的美化和功能多元化，向个人网站全面发展。"></a>二是做好博客的美化和功能多元化，向个人网站全面发展。</h6><hr><p>要学的东西太多了……</p><ul><li>Python</li><li>JavaScript</li><li>HTML</li><li>CSS</li><li>Node.js</li><li>Django</li><li>SQL</li><li>数据分析、机器学习、网页爬虫……</li></ul><p>作为一个业余爱好者，希望自己不耽误主业的同时，把这个爱好玩好……</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;个人博客搭建初探&quot;&gt;&lt;a href=&quot;#个人博客搭建初探&quot; class=&quot;headerlink&quot; title=&quot;个人博客搭建初探&quot;&gt;&lt;/a&gt;个人博客搭建初探&lt;/h1&gt;&lt;p&gt;今天跟随视频和网页教程搭建了属于自己的个人博客，视频和网络参考如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;l</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
