@@ -161,8 +161,10 @@
 <pre><code>yum install nfs-utils -y
 </code></pre>
 <p>然后查看组件是否运行</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">systemctl start nfs; </span><br><span class="line">systemctl enable nfs;</span><br><span class="line">	systemctl status nfs</span><br></pre></td></tr></table></figure>
-
+<pre><code>systemctl start nfs; 
+systemctl enable nfs;
+systemctl status nfs
+</code></pre>
 <p>有了这个组件之后，再使用命令mount就行，一般不需要配置user和password</p>
 <pre><code>mount -t nfs 1.1.1.2:/root/T1/nfs /mnt
 </code></pre>

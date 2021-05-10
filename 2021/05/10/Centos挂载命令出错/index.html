@@ -8,15 +8,15 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Centos挂载命令出错今天在挂载nfs的时候，Centos总是报错，后来才发现了问题的元凶。在挂载nfs之前，先要安装一个组件 yum install nfs-utils -y  然后查看组件是否运行 123systemctl start nfs; systemctl enable nfs;	systemctl status nfs  有了这个组件之后，再使用命令mount就行，一般不需要配置u">
+  <meta name="description" content="Centos挂载命令出错今天在挂载nfs的时候，Centos总是报错，后来才发现了问题的元凶。在挂载nfs之前，先要安装一个组件 yum install nfs-utils -y  然后查看组件是否运行 systemctl start nfs;  systemctl enable nfs; systemctl status nfs  有了这个组件之后，再使用命令mount就行，一般不需要配置use">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://example.com/2021/05/10/Centos%E6%8C%82%E8%BD%BD%E5%91%BD%E4%BB%A4%E5%87%BA%E9%94%99/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Centos挂载命令出错今天在挂载nfs的时候，Centos总是报错，后来才发现了问题的元凶。在挂载nfs之前，先要安装一个组件 yum install nfs-utils -y  然后查看组件是否运行 123systemctl start nfs; systemctl enable nfs;	systemctl status nfs  有了这个组件之后，再使用命令mount就行，一般不需要配置u">
+<meta property="og:description" content="Centos挂载命令出错今天在挂载nfs的时候，Centos总是报错，后来才发现了问题的元凶。在挂载nfs之前，先要安装一个组件 yum install nfs-utils -y  然后查看组件是否运行 systemctl start nfs;  systemctl enable nfs; systemctl status nfs  有了这个组件之后，再使用命令mount就行，一般不需要配置use">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-05-10T15:21:19.976Z">
-<meta property="article:modified_time" content="2021-05-10T15:21:19.976Z">
+<meta property="article:published_time" content="2021-05-10T15:28:02.502Z">
+<meta property="article:modified_time" content="2021-05-10T15:28:02.502Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -163,8 +163,10 @@
 <pre><code>yum install nfs-utils -y
 </code></pre>
 <p>然后查看组件是否运行</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">systemctl start nfs; </span><br><span class="line">systemctl enable nfs;</span><br><span class="line">	systemctl status nfs</span><br></pre></td></tr></table></figure>
-
+<pre><code>systemctl start nfs; 
+systemctl enable nfs;
+systemctl status nfs
+</code></pre>
 <p>有了这个组件之后，再使用命令mount就行，一般不需要配置user和password</p>
 <pre><code>mount -t nfs 1.1.1.2:/root/T1/nfs /mnt
 </code></pre>
